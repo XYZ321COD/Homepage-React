@@ -1,0 +1,84 @@
+@import "Animation";
+$bgDefault: #303030;
+$bgClicked: #ffffff;
+$colText: #808080;
+
+.centered_img {
+  text-align: center;
+  margin-top: 50px;
+  max-width: 100%;
+  height: auto;
+}
+
+.post {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border: 10px ridge rgba(35, 46, 29, 0.55);
+  border-radius: 0px 40px 7px 40px;
+  margin: 20px;
+  position: relative;
+  animation: fadein 1.5s;
+  -moz-animation: fadein 1.5s; /* Firef ox */
+  -webkit-animation: fadein 1.5s; /* Safari and Chrome */
+  -o-animation: fadein 1.5s; /* Opera */
+  color: $bgDefault;
+  &:hover,
+  &:active {
+    background-color: $colText;
+    color: $bgClicked;
+  }
+}
+
+.main_text {
+  font-family: "Roboto";
+  font-size: 80px;
+  font-weight: 700;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  animation: fadein 1.5s;
+  -moz-animation: fadein 1.5s; /* Firef ox */
+  -webkit-animation: fadein 1.5s; /* Safari and Chrome */
+  -o-animation: fadein 1.5s; /* Opera */
+}
+
+.extra_text {
+  font-family: "Roboto";
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  animation: fadein 1.5s;
+  -moz-animation: fadein 1.5s; /* Firef ox */
+  -webkit-animation: fadein 1.5s; /* Safari and Chrome */
+  -o-animation: fadein 1.5s; /* Opera */
+}
+
+.text_title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+  font-family: "Roboto";
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.column-left {
+  text-align: left;
+}
+
+.under-line {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid $bgDefault;
+  animation: fadein 1.5s;
+  -moz-animation: fadein 1.5s; /* Firef ox */
+  -webkit-animation: fadein 1.5s; /* Safari and Chrome */
+  -o-animation: fadein 1.5s; /* Opera */
+}

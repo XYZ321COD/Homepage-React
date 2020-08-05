@@ -1,0 +1,58 @@
+@import "Animation";
+
+$ColorDefault: #000000;
+$linkColor: #5f9f9f;
+$linkHoverColor: #388e8e;
+
+.home2 {
+  margin-top: 160px;
+  width: 100%;
+  z-index: -1;
+  .home {
+    height: 600px;
+    text-align: center;
+
+    .col-cus {
+      animation: fadein 1s;
+      -moz-animation: fadein 1s; /* Firefox */
+      -webkit-animation: fadein 1s; /* Safari and Chrome */
+      -o-animation: fadein 1s; /* Opera */
+      font-size: 14px;
+      margin-left: 10px;
+      padding-left: 25px;
+      padding-right: 25px;
+      margin-right: 10px;
+      margin-top: 20px;
+      line-height: 200%;
+      word-wrap: break-word;
+      text-align: left;
+    }
+  }
+}
+
+.under-line {
+  margin-top: 20px;
+  border-bottom: 1px solid $ColorDefault;
+  animation: fadein 1.5s;
+  -moz-animation: fadein 1.5s; /* Firef ox */
+  -webkit-animation: fadein 1.5s; /* Safari and Chrome */
+  -o-animation: fadein 1.5s; /* Opera */
+}
+.nice-text {
+  color: $ColorDefault;
+  font-family: "Raleway";
+  font-size: 39px;
+  font-weight: lighter;
+  animation: fadein 1s;
+  -moz-animation: fadein s; /* Firefox */
+  -webkit-animation: fadein 1s; /* Safari and Chrome */
+  -o-animation: fadein 1s; /* Opera */
+}
+
+.link {
+  color: $linkColor;
+
+  &:hover {
+    color: $linkHoverColor;
+  }
+}

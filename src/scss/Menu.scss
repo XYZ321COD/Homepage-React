@@ -1,0 +1,28 @@
+@import "Animation";
+
+$bgDefault: #000000;
+$bgClicked: #ffffff;
+$colText: #808080;
+
+.menu-block {
+  padding-right: 25px;
+  padding-left: 25px;
+  background-color: $bgDefault;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $colText;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 100;
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+
+  &:hover,
+  &:active {
+    background-color: $colText;
+    color: $bgClicked;
+  }
+}

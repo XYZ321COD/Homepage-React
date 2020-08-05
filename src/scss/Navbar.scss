@@ -1,0 +1,124 @@
+@import "Animation";
+
+$bgDefault: #000000;
+$bgHighlight: rgba(255, 255, 255, 0.1);
+$colDefault: #ffffff;
+$colText: #808080;
+$underLineColor: rgb(255, 218, 185);
+$borderPopUp: rgba(0, 0, 0, 0.1);
+
+.navbar-default {
+  background-color: $bgDefault;
+  border-color: $bgHighlight;
+  .navbar-collapse {
+    justify-content: center;
+    border-color: $colDefault;
+    .navbar-nav {
+      .nav-item {
+        padding-right: 25px;
+        padding-left: 25px;
+        background-color: $bgDefault;
+        &:hover {
+          background-color: $bgHighlight;
+          animation: fadein 2s;
+          -moz-animation: fadein 1.5s; /* Firef ox */
+          -webkit-animation: fadein 1.5s; /* Safari and Chrome */
+          -o-animation: fadein 1.5s; /* Opera */
+          border-bottom: 2px solid $colDefault;
+          color: $colDefault;
+        }
+        .navbar-link {
+          color: $colText;
+          font-family: "Roboto";
+          font-size: 18px;
+          font-weight: 100;
+          border-bottom: 2px solid $bgDefault;
+          &:hover {
+            color: $colDefault;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 992px) {
+    .navbar-nav {
+      .nav-item {
+        padding-right: 25px;
+        padding-left: 25px;
+        margin-left: 50px;
+        background-color: $bgDefault;
+        &:hover {
+          background-color: $bgHighlight;
+          animation: fadein 2s;
+          -moz-animation: fadein 1.5s; /* Firef ox */
+          -webkit-animation: fadein 1.5s; /* Safari and Chrome */
+          -o-animation: fadein 1.5s; /* Opera */
+          border-bottom: 2px solid $colDefault;
+        }
+        .navbar-link {
+          color: $colText;
+          font-family: "Roboto";
+          font-size: 18px;
+          font-weight: 100;
+          border-bottom: 2px solid $bgDefault;
+          &:hover {
+            color: $colDefault;
+          }
+        }
+      }
+    }
+  }
+}
+.absol {
+  border: 0.5px solid $borderPopUp;
+  position: absolute;
+  width: 300px;
+  height: 150px;
+}
+
+.text-popup_main {
+  width: 150px;
+  margin-bottom: 10px;
+  color: $bgDefault;
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: bold;
+  border-bottom: 2px solid $colDefault;
+  &:hover {
+    border-bottom: 3px solid $underLineColor;
+    -webkit-transition: border-bottom 1000ms linear;
+    -ms-transition: border-bottom 1000ms linear;
+    transition: border-bottom 1000ms linear;
+  }
+}
+.text-popup_extras {
+  display: block;
+  text-decoration: none !important;
+  height: 40px;
+  margin-bottom: 10px;
+  color: $bgDefault;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: "Roboto";
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+
+  &:hover {
+    color: $bgDefault;
+    border-left: 3px solid black;
+    background-color: rgba(0, 0, 0, 0.2);
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+  }
+  .describtion {
+    color: $colText;
+    margin-left: 10px;
+    font-size: 10px;
+  }
+}
+
+@import "node_modules/bootstrap/scss/bootstrap";
