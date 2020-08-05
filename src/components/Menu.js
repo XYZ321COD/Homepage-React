@@ -6,7 +6,7 @@ function Menu() {
       <a
         class="menu-block"
         style={{ height: String(window.innerHeight / 3) + "px" }}
-        href="/home"
+        href="/"
       >
         <div class="navbar-link">H o m e</div>
       </a>

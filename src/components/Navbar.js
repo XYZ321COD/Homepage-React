@@ -123,7 +123,7 @@ function NavBar() {
             )}
             top={HomeRef.current.getBoundingClientRect().bottom}
             left={HomeRef.current.getBoundingClientRect().left}
-            href={["/home", "/aboutme"]}
+            href={["/", "/aboutme"]}
           />
         )}
         {resumeInfoIsShown && (
