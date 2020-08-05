@@ -27,7 +27,7 @@ function App() {
           <AboutMe />
         </Route>
         <Route exact path="/menu" component={Menu}></Route>
-        <Route exact path="/home">
+        <Route exact path="/">
           <NavBar />
           <Home />
         </Route>
