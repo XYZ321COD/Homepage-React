@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/Home.css";
-// import Logo from "../resources/XDD.jpg";
+import Logo from "../resources/me.png";
 
 function Home() {
   return (
@@ -44,9 +44,9 @@ function Home() {
               </a>
               .
             </div>
-            {/* <div class=" col-md-5 col-cus  ">
+            <div class=" col-md-5 col-cus  ">
               <img alt="" class="img" src={Logo} />
-            </div> */}
+            </div>
           </div>
         </div>
         <div class="col-md-1" />
