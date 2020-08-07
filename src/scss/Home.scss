@@ -60,4 +60,8 @@ $linkHoverColor: #388e8e;
 .img {
   max-width: 100%;
   max-height: 100%;
+  animation: fadein 1s;
+  -moz-animation: fadein s; /* Firefox */
+  -webkit-animation: fadein 1s; /* Safari and Chrome */
+  -o-animation: fadein 1s; /* Opera */
 }
