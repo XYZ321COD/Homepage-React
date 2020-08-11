@@ -27,6 +27,7 @@ export default function Build() {
                   src={require("../resources/TypeScriptRedux.svg")}
                 ></img>
               </a>
+              <div class=" col under-line "></div>
             </div>
           </div>
         </div>
