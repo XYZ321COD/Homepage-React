@@ -20,13 +20,14 @@ export default function Build() {
             </a>
             <div class=" col under-line "></div>
             <div class="row-fluid">
-            <a href="https://happy-jepsen-68be17.netlify.app/">
-              <img
-                alt=""
-                class="centered_img"
-                src={require("../resources/TypeScriptRedux.svg")}
-              ></img>
-            </a>
+              <a href="https://happy-jepsen-68be17.netlify.app/">
+                <img
+                  alt=""
+                  class="centered_img"
+                  src={require("../resources/TypeScriptRedux.svg")}
+                ></img>
+              </a>
+            </div>
           </div>
         </div>
       </div>
