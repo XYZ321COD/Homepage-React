@@ -72,7 +72,7 @@ export default function SkateBoardPost() {
                 </li>
                 <li>
                   {" "}
-                  Online Advertisment{" "}
+                  Online Advertisement{" "}
                   <ul>
                     <li>
                       {" "}
