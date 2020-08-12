@@ -76,8 +76,8 @@ export default function SkateBoardPost() {
                   <ul>
                     <li>
                       {" "}
-                      Using adds from skateboardign companys in exchange for the
-                      discout codes for the most active users.
+                      Using adds from skateboarding companies in exchange for
+                      the discount codes for the most active users.
                     </li>
                   </ul>
                 </li>
