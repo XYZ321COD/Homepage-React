@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Projects from "./components/Projects.js";
 import Posts from "./components/Posts.js";
 import MnistPost from "./components/MnistPost.js";
+import SkateBoardApp from "./components/SkateBoardApp";
 function App() {
   return (
     <>
@@ -34,6 +35,10 @@ function App() {
         <Route exact path="/posts/mnist">
           <NavBar />
           <MnistPost />
+        </Route>
+        <Route exact path="/posts/skateboardapp">
+          <NavBar />
+          <SkateBoardApp />
         </Route>
       </Router>
     </>

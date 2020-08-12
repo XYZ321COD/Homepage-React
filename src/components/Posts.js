@@ -18,6 +18,12 @@ export default function Build() {
                   Real time digit recognition in the browser
                 </div>
               </a>
+              <a class="post" href="/posts/skateboardapp">
+                <div class="main_text"> SB </div>
+                <div class="extra_text">
+                  Skate spots - Understand The Problem{" "}
+                </div>
+              </a>
             </div>
           </div>
         </div>
