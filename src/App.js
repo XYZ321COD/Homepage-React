@@ -9,6 +9,7 @@ import Projects from "./components/Projects.js";
 import Posts from "./components/Posts.js";
 import MnistPost from "./components/MnistPost.js";
 import SkateBoardApp from "./components/SkateBoardApp";
+import PrismaAndBackEnd from "./components/PrismaAndBackEnd";
 function App() {
   return (
     <>
@@ -39,6 +40,10 @@ function App() {
         <Route exact path="/posts/skateboardapp">
           <NavBar />
           <SkateBoardApp />
+        </Route>
+        <Route exact path="/posts/prismadatabase">
+          <NavBar />
+          <PrismaAndBackEnd />
         </Route>
       </Router>
     </>

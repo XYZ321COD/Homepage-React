@@ -11,20 +11,22 @@ export default function Build() {
           <div class=" col nice-text "> m @ z</div>
           <div class=" col under-line "></div>
           <div class="row justify-content-center ">
-            <div class="column">
-              <a class="post" href="/posts/mnist">
-                <div class="main_text"> M </div>
-                <div class="extra_text">
-                  Real time digit recognition in the browser
-                </div>
-              </a>
-              <a class="post" href="/posts/skateboardapp">
-                <div class="main_text"> SB </div>
-                <div class="extra_text">
-                  Skate spots - Understand The Problem{" "}
-                </div>
-              </a>
-            </div>
+            <a class="post" href="/posts/mnist">
+              <div class="main_text"> M </div>
+              <div class="extra_text">
+                Real time digit recognition in the browser
+              </div>
+            </a>
+            <a class="post" href="/posts/skateboardapp">
+              <div class="main_text"> SB </div>
+              <div class="extra_text">
+                Skate spots - Understand The Problem{" "}
+              </div>
+            </a>
+            <a class="post" href="/posts/prismadatabase">
+              <div class="main_text"> SB </div>
+              <div class="extra_text">Skate spots - Designing database </div>
+            </a>
           </div>
         </div>
       </div>
