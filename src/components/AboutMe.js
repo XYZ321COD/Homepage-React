@@ -25,7 +25,10 @@ function AboutMe() {
                 <li> C </li>
                 <li>C++ (C++11 - C++17)</li>
                 <li> Python</li>
-                <li>JavaScript (ReactJS, NodeJS, TypeScriptJS, Redux)</li>
+                <li>
+                  JavaScript (ReactJS, React Native, NodeJS, TypeScriptJS,
+                  Redux, Jest)
+                </li>
                 <li>Mathematica</li>
                 <li> BASH, AWK</li>
                 <li> HTML, CSS, SCSS - Sass</li>
